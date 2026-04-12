@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPu8QjkDMgQKDA4kYvUTOR7",
+      "authorship_tag": "ABX9TyOhj7DoeK8GGkpy1h1BwKte",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -396,30 +396,91 @@
     },
     {
       "cell_type": "code",
-      "source": [],
+      "source": [
+        "#strings and conditions\n",
+        "#strings\n",
+        "str1 = \"gooogle\"\n",
+        "str2 = \"hello\"\n",
+        "str3 = \"koogle\"\n",
+        "print(str1)"
+      ],
       "metadata": {
-        "id": "cIfBbcpUMBSg"
+        "id": "cIfBbcpUMBSg",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "2c4d9c49-f33e-46de-a4b2-3a0fb5fefb10"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "gooogle\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
-      "source": [],
+      "source": [
+        "str5 = \"apna college.\\n                                                                                     is good\"\n",
+        "print(str5)\n",
+        "print(str1+str2)\n",
+        "print(str3+str2)\n",
+        "final_string = str1 + str2\n",
+        "print(final_string)\n"
+      ],
       "metadata": {
-        "id": "UE9IjUnLMBlY"
+        "id": "UE9IjUnLMBlY",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "cbb60433-91ba-4c49-a3db-f8fe775d98c5"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "apna college.\n",
+            "                                                                                     is good\n",
+            "goooglehello\n",
+            "kooglehello\n",
+            "goooglehello\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
-      "source": [],
+      "source": [
+        "print(len(str1))\n",
+        "len2 =  str2\n",
+        "print(len(str5))\n",
+        "print(len(final_string))"
+      ],
       "metadata": {
-        "id": "DSnE44pEMCCg"
+        "id": "DSnE44pEMCCg",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "2d829d4f-a353-427b-914a-1696d7a13d8d"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7\n",
+            "106\n",
+            "12\n"
+          ]
+        }
+      ]
     }
   ]
 }
