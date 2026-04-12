@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOhj7DoeK8GGkpy1h1BwKte",
+      "authorship_tag": "ABX9TyM8o6sWf4d+yhFNjxOMZAk8",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -397,8 +397,8 @@
     {
       "cell_type": "code",
       "source": [
-        "#strings and conditions\n",
         "#strings\n",
+        "\n",
         "str1 = \"gooogle\"\n",
         "str2 = \"hello\"\n",
         "str3 = \"koogle\"\n",
@@ -457,19 +457,17 @@
     {
       "cell_type": "code",
       "source": [
-        "print(len(str1))\n",
-        "len2 =  str2\n",
-        "print(len(str5))\n",
-        "print(len(final_string))"
+        "#hard concept\n",
+        "str1 = \"str\"\n"
       ],
       "metadata": {
         "id": "DSnE44pEMCCg",
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "2d829d4f-a353-427b-914a-1696d7a13d8d"
+        "outputId": "a3e088c4-c2cf-4040-a200-9c1df218bd61"
       },
-      "execution_count": 30,
+      "execution_count": 31,
       "outputs": [
         {
           "output_type": "stream",
@@ -478,6 +476,31 @@
             "7\n",
             "106\n",
             "12\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "input(\"enter your name:\")\n",
+        "print(\"hello there\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2B0tYckP1MDT",
+        "outputId": "3a900b0a-dc37-4976-abb7-a5fd647577d4"
+      },
+      "execution_count": 43,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your name:Samarth\n",
+            "hello there\n"
           ]
         }
       ]
